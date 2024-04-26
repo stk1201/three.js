@@ -5,3 +5,22 @@ cを押すとコスチュームが切り替わる。初期状態としてロボ�
 <br>
 使用言語：JavaScript、HTML  
 実行方法：index.htmlを実行する。
+
+# 操作方法
+![](https://github.com/stk1201/three.js/blob/main/pictures/control.png)  
+<br>
+#視点移動
+視点移動はカーソルを写真の緑色の矢印のように移動するとカメラが移動し，視点が動く．このように，カーソルを左に動かすとカメラが左回転し，ロボットの左側が見えるようになる．カーソルを右に動かすと，左のときとは逆方向に回転し，ロボットは右側が見えるようになる．カーソルを上に動かすとカメラが上に回転し，ロボットの上側が見えるようになる．下に移動した場合は下にカメラが回転し，ロボットの下側が見えるようになる．
+![](https://github.com/stk1201/three.js/blob/main/pictures/perspective.png)  
+<br>
+#コスチュームについて
+コスチューム機能の説明をする．コスチュームはコスチュームなし，棒人間，電球，プロペラの４パターンである．cキーを押すと写真のようにコスチュームが変化する．
+![](https://github.com/stk1201/three.js/blob/main/pictures/costume1.png)  
+<br>
+一部のコスチュームにはオプション機能が付いている．ロボットが電球を身につけている状態のときにoキーを押すと，図33にように電球がつく．
+![](https://github.com/stk1201/three.js/blob/main/pictures/costume2.png)  
+<br>
+他のオプションはロボットがプロペラを装着している状態時のオプションである．oキーを押すと，プロペラが回り出しロボットが浮上する．ある高さまで上昇すると，しばらくプロペラを回しながらその場に留まる．その後，降下し元の位置に戻る．
+![](https://github.com/stk1201/three.js/blob/main/pictures/costume3.png)  
+![](https://github.com/stk1201/three.js/blob/main/pictures/costume4.png) 
+<br>
